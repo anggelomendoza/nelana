@@ -1,0 +1,136 @@
+.fondo-imagen {
+    background-image: url(../img/wallpaperflare.com_wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.lista-navegacion {
+    background-color: rgb(127, 255, 212);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: blueviolet;
+    display: flex;
+    gap: 30px;
+    padding: 20px;
+    font-style: normal;
+}
+
+
+.logo-nelana {
+    width: 100px;
+    height: 100px;
+}
+
+.lista-navegacion li{
+    list-style-type: none;
+}
+
+
+h1 {
+    background-color: black;
+    color: whitesmoke;
+    text-align: center;
+    padding: 10px;
+    border-style: solid;
+    border-color: aquamarine;
+    font-size: 35px;
+}
+.section1 {
+    background-color: black;
+    display: inline-block;
+}
+
+.imagen-somos {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+}
+
+.parrafo-somos {
+    display: flex;
+    color: whitesmoke;
+    text-align: center;
+    font-size: 25px;
+}
+
+.caja_cards {
+    background-color: rgba(0, 255, 255, 0.11);
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.caja_imagen-texto {
+    display: flex;
+}
+
+.card {
+    background-color: black;
+    width: 250px;
+    margin-top: 80px;
+    margin-bottom: 120px;
+    padding: 50px;
+}
+
+.card__imagen {
+    display: block;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    border-style: solid;
+    border-color: aquamarine;
+}
+
+.card__parrafo {
+    color: aquamarine;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.card__parrafo--descripcion {
+    color: whitesmoke;
+    text-align: center;
+}
+
+footer {
+    margin-top: 10px;
+}
+
+.sociales {
+    background-color: rgba(76, 0, 130, 0.342);
+    
+    display: flex;
+    flex-direction: row;
+    padding: 15px 10px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.sociales p {
+    font-size: initial;
+    color: #fff;
+
+}
+
+.link-redes {
+    list-style-type: none;
+}
+
+.link-redes {
+    display: flex;
+    font-size: x-large;
+}
+
+.fa-brands {
+    display: flex;
+    color: #fff;
+    padding-inline: 10px;
+}
